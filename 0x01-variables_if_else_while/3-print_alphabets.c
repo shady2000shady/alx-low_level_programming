@@ -10,19 +10,20 @@
 
 int main(void)
 {
-char c = 'a';
-char C = "A";
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
-putchar('\n');
-while (C <= 'Z')
-{
-putchar(C);
-C++;
-}
-putchar('\n');
-return (0);
+	char ch = 'a';
+	char ch1 = "A";
+
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	while (ch1 <= 'Z')
+	{
+		putchar(ch1);
+		ch1++;
+	}
+	putchar('\n');
+	return (0);
 }
