@@ -17,15 +17,18 @@ int main(void)
 		di2 = di1;
 		while (di2 <= 99)
 		{
-			putchar((di1 / 10) + 48);
-			putchar((di1 % 10) + 48);
-			putchar(' ');
-			putchar((di2 / 10) + 48);
-			putchar((di2 % 10) + 48);
-			if (di1 != 98 || di2 != 99)
+			if (di2 != di1)
 			{
-				putchar(',');
+				putchar((di1 / 10) + 48);
+				putchar((di1 % 10) + 48);
 				putchar(' ');
+				putchar((di2 / 10) + 48);
+				putchar((di2 % 10) + 48);
+				if (di1 != 98 || di2 != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			di2++;
 		}
