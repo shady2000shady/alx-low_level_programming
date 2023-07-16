@@ -3,7 +3,7 @@
 /**
  * Main - Entery point
  *
- * Description: Print all letters
+ * Description: print all alphabet letters
  *
  * Return: Always 0 (success)
  */
