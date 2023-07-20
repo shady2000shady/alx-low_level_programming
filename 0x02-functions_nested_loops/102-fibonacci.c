@@ -8,16 +8,15 @@
 
 int main(void)
 {
-	int co;
 	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	for (co = 0; co < 50; co++)
+	for (int n = 0; n < 50; n++)
 		{
 			sum = fib1 + fib2;
 			printf("%lu", sum);
 			fib1 = fib2;
 			fib2 = sum;
-			if (co == 49)
+			if (n == 49)
 				printf("\n");
 			else
 				printf(", ");
